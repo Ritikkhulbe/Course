@@ -33,8 +33,7 @@ int main(){
         }
 
     }
-
     cout<<"Linear Counter took : " <<linearCounter<<" iterations\nBinary Counter took : "<<binaryCounter<<" iterations"<<endl;
-
+    //Hence Binary takes O(log n) time where Time Complexity of Linear search is O(n);
     return 0;
 }

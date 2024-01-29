@@ -14,13 +14,12 @@ void displayList(const list<int>& myList) {
 int main() {
     list<int> myList;
 
-    for(int i = 0;i<3;i++){
+    for(int i = 0; i < 3 ; i++){
         int x;
         cin>>x;
         myList.push_back(x);
     }
-
-    for(int i = 0;i<3;i++){
+    for(int i = 0; i < 3; i++){
         int x;
         cin>>x;
         myList.push_front(x);
@@ -32,6 +31,6 @@ int main() {
     myList.pop_front();
 
     displayList(myList);
-
+    
     return 0;
 }
