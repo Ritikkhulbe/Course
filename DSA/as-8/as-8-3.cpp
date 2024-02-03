@@ -55,7 +55,7 @@ int main(){
     displayLL(head);
     head = Insert(head, 3, 10);
     displayLL(head);
-    head = Insert(head, 0, 20);
+    head = Insert(head, 1, 20);
     displayLL(head);
     return 0;
 }
